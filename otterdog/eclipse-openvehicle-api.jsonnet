@@ -9,6 +9,9 @@ orgs.newOrg('automotive.openvehicle-api', 'eclipse-openvehicle-api') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('openvehicle-api') {
+      description: "Project API",
+    },
     orgs.newRepo('openvehicle-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
